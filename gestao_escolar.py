@@ -16,16 +16,21 @@ class Escola:
         self.nota1 = nota1
         self.nota2 = nota2
 
-    def calculo(self):
+    def calcular(self):
         self.nota_final = (self.nota1 + self.nota2) / 2
+    
+        variavel = ''
 
         if self.nota_final >= 7:
-            print(f"Aluno {self.nome} aprovado.")
+            variavel = f"Aluno {self.nome} aprovado {self.nota_final}!"
         elif self.nota_final < 7 and self.nota_final >= 4:
-            print(f"O aluno {self.nome} está em recuperação.")
+            variavel = f"O aluno {self.nome} está em recuperação {self.nota_final}."
         else:
-            print(f"Aluno {self.nome} Reprovado!")
+            variavel = f"Aluno {self.nome} Reprovado {self.nota_final}!"
 
-ze = Escola()
-ze.inscricao()
-print(ze.nome)
+        return variavel
+
+aluno = Escola()
+aluno.inscricao()
+aluno.nota()
+print(aluno.calcular())

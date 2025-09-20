@@ -1,0 +1,12 @@
+# 3 - Crie uma classe que apresente os seguinte atributos:
+#       Class Banco(numero, nome, saldo, nome do banco, agencia) <-- atributos
+#         - Métodos
+#             - transferir - TED, sacar, PIX, Cheque_especial, emprestimo, crédito
+#             - transferir - TED se eu tiver a quantia em conta -- tem um % cobrado se o banco
+#               for diferente.
+#             - PIX só posso realizar o pix se eu tiver isso em conta
+#             - Cheque_especial --> o seu saldo precisa ser < 0 ele tem juros -- nada de ter time
+#             - Empréstimo --> Comprar um casa e solicita um empréstimo ao banco e seu perfil será 
+#               avaliado.
+#             - Crédito --> é quando você quer comprar algo e ter um saldo < ou > que o valor do #                produto e terá um cobrança no final do mês
+#             - Crédito deve ter um relatório de ações.

@@ -8,3 +8,5 @@ class Banco:
     print(f'\n--- Contas do banco {self.nomeDoBanco} ---')
     for conta in self.contas:
       print(f"Titular: {conta.nome} | N° da conta: {conta.numeroDaConta} | Saldo: R${conta.saldo:.2f}")
+      
+      
